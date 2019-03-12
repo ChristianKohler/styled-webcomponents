@@ -1,7 +1,9 @@
 # styled-webcomponents
+
 styled-components like library for web components
 
 ## Warning
+
 Very early stage. Not production ready!
 
 ## Example
@@ -33,7 +35,9 @@ define({ tag: "project-wrapper"}, Wrapper);
 
 ```html
 <!-- Use them like any other dom element – except they're styled! -->
-<project-title>
-  <project-wrapper>Hello World, this is my first styled webcomponent!</project-wrapper>
-</project-title>
+<project-wrapper>
+  <project-title>
+    Hello World, this is my first styled webcomponent!
+  </project-title>
+</project-wrapper>
 ```
