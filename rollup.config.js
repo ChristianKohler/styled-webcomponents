@@ -2,8 +2,6 @@ import babel from "rollup-plugin-babel";
 import resolve from "rollup-plugin-node-resolve";
 import pkg from './package.json';
 
-const name = 'styledWebcomponents';
-
 const extensions = [".ts", ".tsx"];
 const presets = [
   [
@@ -29,11 +27,6 @@ module.exports = {
   }, {
     file: pkg.module,
     format: 'es',
-  }, {
-    file: pkg.browser,
-    format: 'iife',
-    name,
-    globals: {},
   }],
   plugins: [
     babel({
