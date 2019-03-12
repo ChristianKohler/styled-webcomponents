@@ -1,6 +1,9 @@
 # styled-webcomponents
 styled-components like library for web components
 
+## Warning
+Very early stage. Not production ready!
+
 ## Example
 
 <!-- prettier-ignore -->
